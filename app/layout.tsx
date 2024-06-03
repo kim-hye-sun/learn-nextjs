@@ -17,12 +17,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta
-          http-equiv="Permissions-Policy"
-          content="picture-in-picture=*"
-        ></meta>
-      </head>
       <body>
         <Navigation />
         {children}
