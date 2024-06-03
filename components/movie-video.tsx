@@ -16,6 +16,7 @@ export default async function MovieVideo({ id }: { id: string }) {
           key={video.id}
           src={`https://youtube.com/embed/${video.key}`}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
           title={video.name}
         />
       ))}
